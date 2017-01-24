@@ -30,7 +30,7 @@ public class Main {
       for ( User event : (List<User>) result ) {
          System.out.println( "Event (" + event.getName() + ") : " + event.getBirthday() );
       }
-      //User use = new User();
+      User use = new User();
       //use.setBirthday(new Date());
       //use.setName("TT");
       //s.save(use);
